@@ -20,4 +20,5 @@ def video_ip_camera_stream():
     return Response(generateIpCameraVideo(), mimetype="multipart/x-mixed-replace; boundary=frame")
 
 if __name__ == "__main__":
-    app.run(debug=True, threaded=True)
+    app.run(debug=True, host='0.0.0.0')
+

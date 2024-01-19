@@ -4,8 +4,8 @@ import os
 def generateIpCameraVideo():
     ## parametros para acceso al streaming
     USR = 'admin'
-    PASSWD = '123'
-    IPADD = '192.168.0.184'
+    PASSWD = 'admin'
+    IPADD = 'http://220.254.72.200'
     PORT = '554'
 
     os.environ["OPENCV_FFMPEG_CAPTURE_OPTIONS"] = "rtsp_transport;udp"
